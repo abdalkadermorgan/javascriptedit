@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    flex-direction: row;
+
+}
+
+.container >div {
+    margin: 20px;
+}
+
+.right-bar {
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 44px;
+}
+.sub-list {
+    display: none;
+}
+
+.right-bar >div {
+    margin-left: 20px;
+}
+
+.side-bar ul {
+    list-style: none;
+    padding: 5px;
+    
+}
+.side-bar ul li{
+    padding: 10px;
+}
+.side-bar ul a {
+    text-decoration: none;
+    color: black;
+}
+.list-bar {
+    width: auto;
+    max-width: 400px;
+    height: 250px;
+    
+}
+
+.list-bar ul {
+    list-style: none;
+    padding: 5px;
+    height: 220px;
+    background-color:rgb(221, 221, 221);
+    column-count: 2;
+    column-fill: auto;
+    
+}
+.list-bar ul li{
+    padding: 6px;
+}
+
+.list-bar ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    width: 440px;
+}
+
+.item img {
+    width: 440px;
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+}
+.item .img-text {
+    z-index: 0;
+    color: white;
+    margin-top: 173px;
+    margin-left: 19px;
+}
+
+.item .img-text  h3,p{
+    margin: 0;
+
+}
+
+
+.side-bar ul li:hover {
+    border: 2px solid rgb(88, 193, 235);
+}
+
+.side-bar .sub-list .right-bar ul li:hover {
+    border: none;
+}
+
+.fas {
+    color: cadetblue;
+    padding-right: 10px;
+}
